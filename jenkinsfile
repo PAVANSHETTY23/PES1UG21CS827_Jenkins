@@ -10,7 +10,7 @@ pipeline{
         }
         stage('Test'){
             steps{
-                sh './PES1UG20CS827'
+                sh './PES1UG21CS827'
                 echo 'test stage successful'
             }
         }
