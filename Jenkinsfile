@@ -16,7 +16,7 @@ pipeline{
         }
         stage('Deploy'){
             steps{
-                pavan
+          
                 echo 'Deployment Successful'
             }
         }
